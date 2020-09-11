@@ -1,0 +1,28 @@
+.top {
+    display: flex;
+    margin: 20px;
+}
+
+.headerpics {
+    height: auto;
+    width: 70%;
+}
+
+.headercontent {
+    width: fit-content;
+}
+
+.subheader img {
+  float: right;
+  width: 50%;
+}
+
+.subheader h1 {
+    float: left;
+    width: 50%;
+}
+
+.urcontent {
+    display: block;
+    padding-top: 100px;
+}
