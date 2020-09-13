@@ -57,13 +57,13 @@
             <p>We found that most of our interviewees needed to spend a lot of time planning but disliked how time consuming it was, however they didn’t consider using a travel agent because they wanted to do things themselves.</p>
         </div>
         <div class="card quote1">
-            <div class="card-body">"I just like to do everything on my own"-Ashley</div>
+            <div class="card-body" style="color:white;">"I just like to do everything on my own"-Ashley</div>
         </div>
         <div class="card quote2">
-        <div class="card-body">"We needed a lot more planning, it would have avoided a lot of arguing” -Fern</div>
+        <div class="card-body" style="color:white;">"We needed a lot more planning, it would have avoided a lot of arguing” -Fern</div>
         </div>
         <div class="card quote3">
-        <div class="card-body">“I expect it to be a long process...in a way I dread it”. -Tiffany</div>
+        <div class="card-body" style="color:white;">“I expect it to be a long process...in a way I dread it”. -Tiffany</div>
         </div>
         <div class="survey">
             <h2>Survey Data</h2>
@@ -146,17 +146,21 @@
         </div>
         <div class="digitalp">
             <h2>Digital Wireframe</h2>
-            <button type="button" class="btn btn-primary btn-sm">Low-fi Prototype</button>
+            <button type="button" class="btn btn-primary btn-sm" onclick="relocate_home()">Low-fi Prototype</button>
+            <script>
+                function relocate_home () {
+                location.href="https://www.figma.com/proto/Ua0l6nBNWGQgWPSIXg5iZb/Sojourn-Wireframe?node-id=1%3A2&scaling=scale-down";}
+            </script>
         </div>
         <div class="dimages1 row">
-            <div class="col-lg-4"><img src="images/D-page 1.png" alt=""></div>
-            <div class="col-lg-4"><img src="images/d-pg2.png" alt=""></div>
-            <div class="col-lg-4"><img src="images/d-pg3.png" alt=""></div>
+            <div class="col-lg-4"><img src="images/D-page 1.png" alt="" style="border:3px solid black;border-radius:45px;"></div>
+            <div class="col-lg-4"><img src="images/d-pg2.png" alt="" style="border:3px solid black;border-radius:45px;"></div>
+            <div class="col-lg-4"><img src="images/d-pg3.png" alt="" style="border:3px solid black;border-radius:45px;"></div>
         </div>
         <div class="dimages2 row">
-            <div class="col-lg-4"><img src="images/d-pg4.png" alt=""></div>
-            <div class="col-lg-4"><img src="images/d-pg5.png" alt=""></div>
-            <div class="col-lg-4"><img src="images/d-pg6.png" alt=""></div>
+            <div class="col-lg-4"><img src="images/d-pg4.png" alt="" style="border:3px solid black;border-radius:45px;"></div>
+            <div class="col-lg-4"><img src="images/d-pg5.png" alt="" style="border:3px solid black;border-radius:45px;"></div>
+            <div class="col-lg-4"><img src="images/d-pg6.png" alt="" style="border:3px solid black;border-radius:45px;"></div>
         </div>
     </section>
 <!--Testing-->
@@ -165,7 +169,7 @@
             <h1>Testing & Iterating</h1>
             <img src="images/Dots.png" alt="">
         </div>
-        <div>
+        <div class="testcontent">
             <p>Objective: To discover if travelers would use a single app to plan multiple parts of their trip. I want to know if they able to locate the search results after entering their details and if they would choose to set profile preferences.</p>
             <p>Method: Test on 4 users remotely</p>
             <ol>Tasks: 
@@ -180,7 +184,11 @@
         </div>
         <div class="iosmock">
         <h2>iOS Mockups</h2>
-        <button type="button" class="btn btn-secondary btn-sm">Hi-fi Prototype</button>
+        <button type="button" class="btn btn-secondary btn-sm" onclick="relocate_home2()">Hi-fi Prototype</button>
+        <script>
+            function relocate_home2 () {
+            location.href="https://www.figma.com/proto/p5lEZObTUB6daZvDp0Umu8/Sojourn-Wireframe-Updated?scaling=scale-down&node-id=309%3A167";}
+        </script>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -193,16 +201,10 @@
                 <img src="images/NB Flight.png" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="images/NB Trip Plan.png.png" class="d-block w-100" alt="...">
+                <img src="images/NB Trip Plan.png" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
-        <div class="iosimg">
-            <img src="images/NB splash.png" alt="">
-            <img src="images/NB Search 1.png" alt="">
-            <img src="images/NB Flight.png" alt="">
-            <img src="images/NB Trip Plan.png" alt="">
-        </div>
         </div>
         <div class="theend">
             <h2>Final Thoughts</h2>
@@ -210,6 +212,7 @@
             <p>There were a lot of things I learned after user testing. I assumed that if actionable options were in writing, users would read them and understand the step but just because something is written out doesn’t mean that users will know or want to read it to move to the next step. UX design is really about organizing things in a way so that users don’t need to stop and read steps, but rather they can move through a process in a way that feels natural. </p>
             <p>Although I like the final concept of a voice activated app, I’m curious how well it would work without being able to test it’s true functionality. For example, how background noise or different accents would affect its ability to understand the user or if they would really prefer to speak their choices. I would love to be able to test out a more hi-fidelity prototype. This was fun!  </p>
             <img src="images/Dots.png" alt="">
+            <img class="i2" src="images/Dots.png" alt="">
         </div>
 
  </section>
