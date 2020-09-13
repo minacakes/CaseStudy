@@ -15,14 +15,107 @@
 .subheader img {
   float: right;
   width: 50%;
+  margin-top: 200px;
+  margin-bottom: 100px
 }
 
 .subheader h1 {
     float: left;
     width: 50%;
+    margin-top: 200px;
+    margin-bottom: 100px
+    
 }
 
 .urcontent {
-    display: block;
+    display: inline-block;
+}
+
+.card {
+    background-color: #674EA7;
+    width: 30%;
+}
+
+.cardbody {
+    color: white;
+}
+
+.quote1 {
+    float: left;
+   
+}
+
+.quote2 {
+    float: left;
+    margin-left: 50px;  
+}
+
+.quote3 {
+    float: right;
+   
+}
+
+.survey {
+    padding-top: 200px;
+    text-align: center;
+
+}
+
+.survey img {
+    width: 45%;
+    padding: 20px;
+}
+
+.afmap {
+    text-align: center;
+    padding-top: 100px
+}
+
+.afmap img {
+    float: right;
+}
+
+.afmap p {
+    padding-top: 200px;
+}
+
+.subheader p {
+    display: inline-block;
+}
+
+.fpriority img {
+    float: right;
+    width: 65%;
+
+}
+
+.fpriority p {
+    width: 35%;
+    float: left;
+    padding-top: 200px;
+}
+
+.vps {
+    display: inline-block;
+    width: 100%;
     padding-top: 100px;
+    text-align: center;
+}
+
+.storyboard {
+    padding-top: 100px;
+}
+
+.userflow {
+    padding-top: 100px;
+}
+
+.userflow img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.digitalp {
+    padding-top: 100px;
+    text-align: center;
 }
